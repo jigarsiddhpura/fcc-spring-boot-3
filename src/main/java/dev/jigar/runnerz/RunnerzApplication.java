@@ -10,6 +10,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import dev.jigar.runnerz.run.Location;
+import dev.jigar.runnerz.run.Run;
+
 
 @SpringBootApplication
 public class RunnerzApplication {

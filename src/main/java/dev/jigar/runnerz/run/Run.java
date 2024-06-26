@@ -1,4 +1,4 @@
-package dev.jigar.runnerz;
+package dev.jigar.runnerz.run;
 
 import java.time.LocalDateTime;
 
