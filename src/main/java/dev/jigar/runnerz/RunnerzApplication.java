@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 
 import dev.jigar.runnerz.run.Location;
 import dev.jigar.runnerz.run.Run;
+import dev.jigar.runnerz.run.RunRepository;
 
 
 @SpringBootApplication
@@ -26,9 +27,12 @@ public class RunnerzApplication {
 
 	@Bean
 	CommandLineRunner runner() { // this will run after application context is built
+		// CommandLineRunner is an interface that defines a single abstract method 
+		// `FunctionalInterface` is an interface that contains only the abstract method. purpose of `FunctionalInterface` is to enable the use of lambda expression and method ref
 		return args -> {
 			Run run = new Run(1, "first run", LocalDateTime.now(), LocalDateTime.now().plus(1, ChronoUnit.HOURS), 1, Location.INDOOR);
 			log.info("run : "+run);
+			// runRepository.create(run);
 		};
 	}
 

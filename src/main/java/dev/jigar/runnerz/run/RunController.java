@@ -32,9 +32,9 @@ public class RunController {
     @GetMapping("/")
     List<Run> findAll() {
         return runRepository.findAll();
-    }
+    }   
 
-    // get
+    // // get
     @GetMapping("/{id}")
     Run findId(@PathVariable Integer id) {
         Optional<Run> run = runRepository.findById(id);
@@ -51,7 +51,7 @@ public class RunController {
     void create(@Valid @RequestBody Run run) {
         runRepository.create(run);  
     }
-
+    
     // update
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping("/{id}/")
