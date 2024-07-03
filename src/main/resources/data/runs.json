@@ -1,0 +1,84 @@
+{
+    "runs": [
+        {
+            "id": 1,
+            "title": "Morning jog",
+            "startedOn": "2024-07-01T06:30:00.0000000",
+            "completedOn": "2024-07-01T07:15:00.0000000",
+            "miles": 3.5,
+            "location": "OUTDOOR"
+        },
+        {
+            "id": 2,
+            "title": "Treadmill run",
+            "startedOn": "2024-07-02T18:00:00.0000000",
+            "completedOn": "2024-07-02T18:45:00.0000000",
+            "miles": 4,
+            "location": "INDOOR"
+        },
+        {
+            "id": 3,
+            "title": "Beach run",
+            "startedOn": "2024-07-03T09:00:00.0000000",
+            "completedOn": "2024-07-03T10:30:00.0000000",
+            "miles": 6,
+            "location": "OUTDOOR"
+        },
+        {
+            "id": 4,
+            "title": "Interval training",
+            "startedOn": "2024-07-04T17:30:00.0000000",
+            "completedOn": "2024-07-04T18:15:00.0000000",
+            "miles": 2.5,
+            "location": "INDOOR"
+        },
+        {
+            "id": 5,
+            "title": "Trail run",
+            "startedOn": "2024-07-05T08:00:00.0000000",
+            "completedOn": "2024-07-05T09:30:00.0000000",
+            "miles": 5,
+            "location": "OUTDOOR"
+        },
+        {
+            "id": 6,
+            "title": "Recovery run",
+            "startedOn": "2024-07-06T19:00:00.0000000",
+            "completedOn": "2024-07-06T19:45:00.0000000",
+            "miles": 3,
+            "location": "INDOOR"
+        },
+        {
+            "id": 7,
+            "title": "Long run",
+            "startedOn": "2024-07-07T07:00:00.0000000",
+            "completedOn": "2024-07-07T09:30:00.0000000",
+            "miles": 10,
+            "location": "OUTDOOR"
+        },
+        {
+            "id": 8,
+            "title": "Hill repeats",
+            "startedOn": "2024-07-08T18:30:00.0000000",
+            "completedOn": "2024-07-08T19:30:00.0000000",
+            "miles": 4,
+            "location": "OUTDOOR"
+        },
+        {
+            "id": 9,
+            "title": "Tempo run",
+            "startedOn": "2024-07-09T17:00:00.0000000",
+            "completedOn": "2024-07-09T18:00:00.0000000",
+            "miles": 5,
+            "location": "INDOOR"
+        },
+        {
+            "id": 10,
+            "title": "Fartlek run",
+            "startedOn": "2024-07-10T06:00:00.0000000",
+            "completedOn": "2024-07-10T07:15:00.0000000",
+            "miles": 6,
+            "location": "OUTDOOR"
+        }
+    ]
+}
