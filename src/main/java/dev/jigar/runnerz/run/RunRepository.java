@@ -87,6 +87,8 @@ public class RunRepository {
 
     // update
     public void update(Run run, Integer id) {
+        // `.name()` param converts the location object to string
+        // can also use `.toString()`
         var updated = jdbcClient.sql("update run set title = ?, started_on = ?, completed_on = ?, miles = ?, location = ? where id = ?")
         .params(List.of(run.title(), run.startedOn(), run.completedOn(), run.miles(), run.location().name(), run.id()))
         .update();
