@@ -9,13 +9,14 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.jdbc.repository.config.EnableJdbcRepositories;
 
 import dev.jigar.runnerz.run.Location;
 import dev.jigar.runnerz.run.Run;
-import dev.jigar.runnerz.run.RunRepository;
 
 
 @SpringBootApplication
+@EnableJdbcRepositories
 public class RunnerzApplication {
 
 	private static final Logger log = LoggerFactory.getLogger(RunnerzApplication.class);
