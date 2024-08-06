@@ -61,6 +61,8 @@ public class RunController {
     void update(@Valid @RequestBody Run run, @PathVariable Integer id) {
         // runRepository.update(run, id);
         runRepository.save(run);
+        // runRepository.update(run, id);
+        runRepository.save(run);
     }
     
     // delete
