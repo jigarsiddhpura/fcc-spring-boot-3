@@ -5,13 +5,10 @@ import java.time.LocalDateTime;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 
-import org.springframework.data.annotation.Version;
-import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
 
 
-// record are designed to be immutable
 public record Run(
     @Id
     Integer id,
